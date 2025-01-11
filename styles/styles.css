@@ -307,3 +307,98 @@ line-height: 24px;
 letter-spacing: 0%;
 
 }
+
+
+/* opinion styles */
+.opinion{
+    width: 1280px;
+    height: 560px;
+    margin: 80px  auto;
+    margin-bottom: 0px;
+}
+.opinion-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+table {
+
+  width: 1216px;
+height: 72px;
+border-collapse: collapse;
+margin-left: 0px;
+    
+}
+
+.t-head-col-1
+{width: 1017px;
+    height: 92px;
+ 
+    border: 1px solid black;
+   padding: 5px 10px;
+   color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+
+}
+.select{
+    width: 200px;
+height: 92px;
+
+border: 1px solid black;
+padding: 5px 10px;
+color: black;
+}
+.table-head{
+
+    width: 1216px;
+    height: 72px;
+    border: 1px solid black;
+
+    padding: 24px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(198, 228, 214);
+display: flex;
+justify-content: space-between;
+    align-items: center;
+    /* text-align: left; */
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+margin-left: 0px;
+
+}
+.question{
+    margin-left: 0px;
+}
+.select-opinion{
+    margin-right: 0px;
+}
+
+select{
+    color: black;
+    background: rgb(198, 228, 214);
+    width: 152px;
+    height: 44px;
+    box-sizing: border-box;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+
+}
