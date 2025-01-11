@@ -585,7 +585,7 @@ letter-spacing: 0%;
   height: 64px;
  
   box-sizing: border-box;
-  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  border: 1px solid rgba(14, 14, 14, 0.15);
   
    background: rgb(255, 255, 255);
    
