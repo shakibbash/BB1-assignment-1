@@ -37,6 +37,11 @@ letter-spacing: 0%;
 padding: 15px 30px 15px 30px;
 
 }
+.nav-btn:hover{
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+  }
 
 /* banner styles */
 
@@ -90,6 +95,12 @@ letter-spacing: 0%;
 padding: 17px 34px 17px 34px;
 border: none;
 }
+.banner-btn:hover{
+        background-color: #04AA6D;
+        color: white;
+        cursor: pointer;
+      }
+
 .banner-img{
     margin-top: 80px;
 }
@@ -211,6 +222,11 @@ border: none;
 margin-top: 24px;
 
 }
+.vision-btn-1:hover{
+    background-color:  rgb(11, 76, 187);
+    color: white;
+    cursor: pointer;
+  }
 
 .vision-box-2{
     width: 410.67px;
@@ -222,6 +238,11 @@ background: rgb(198, 228, 214);
 padding: 32px;
 
 
+}
+.vision-btn-2:hover{
+    background-color: #3cd09a;
+    color: white;
+    cursor: pointer;
 }
 .vision-btn-2{
     border-radius: 8px;
@@ -262,6 +283,11 @@ letter-spacing: 0%;
 border: none;
 margin-top: 24px;
 
+}
+.vision-btn-3:hover{
+    background: rgb(181, 143, 54);
+    color: white;
+    cursor: pointer;
 }
 
 /* quote styles */
@@ -480,6 +506,11 @@ letter-spacing: 0%;
 margin-top: 55px;
 border: none;
 }
+.readme-btn:hover{
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+  }
 
 .recent-news-box-content span{
     color: rgba(14, 14, 14, 0.7);
@@ -619,5 +650,104 @@ letter-spacing: 0%;
     background-color: #04AA6D;
     color: white;
     cursor: pointer;
+
+  }
+
+  /* subscribe styles */
+
+  .subscribe{
+    width: 1280px;
+height: 395px;
+margin: 80px auto;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+  }
+
+  .subscribe-content{
+text-align: center;
+ 
+  }
+  .subscribe-input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+    position: relative;
+  }
+  .subscribe-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+
+  }
+
+
+  .subscribe-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+margin-top:16px;
+margin-bottom: 20px;
+  }
+
+  input[type="email"]{
+
+    width: 600px;
+height: 55px;
+border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+padding: 5px;
+border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+border: none;
+  }
+  input[type="submit"]{
+    width: 150px;
+height: 65px;
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+border-radius: 0px 8px 8px 0px;
+border: none;
+
+background: rgb(0, 106, 80);
+/* position the subscribe button */
+position: absolute;
+right: 15px;
+  }
+  input[type="submit"]:hover{
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+  }
+  .subscribe-input p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
 
   }
