@@ -623,6 +623,25 @@ letter-spacing: 0%;
     cursor: pointer;
 
   }
+  .donate-btn-2{
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background-color: #04AA6D;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+}
+  .donate-btn-2:hover{
+      background-color: white;
+color:black;
+    cursor: pointer;
+  }
 
   input[type="text"]{
     width: 1032px;
