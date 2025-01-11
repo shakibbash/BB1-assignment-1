@@ -2,9 +2,7 @@
 *{
     margin:0 auto;
 }
-body{
-    color: rgba(235, 244, 244, 0.817);
-}
+
 
 .nav-container{
     width: 100%;
@@ -518,3 +516,108 @@ border-radius: 24px;}
     background: rgb(255, 255, 255);
     padding: 48px;
 }
+/* donate section styles */
+.donate-today{
+    width: 1280px;
+height: 464px;
+margin: 80px auto;
+}
+
+
+.donate-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-top:24px;
+margin-bottom:32px
+}
+.donate-card-container{
+    display: flex;
+   justify-content: center;
+
+}
+
+.donate-btn{
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+}
+
+.amount{
+
+    display: flex;
+    flex-direction: column;
+  margin-top: 24px;
+  gap: 32px;
+}
+
+.donate-btn:hover {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+
+  }
+
+  input[type="text"]{
+    width: 1032px;
+  height: 64px;
+ 
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  
+   background: rgb(255, 255, 255);
+   
+   color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+  }
+
+  .done-btn{
+    width: 151px;
+height: 56px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+
+  }
+  .done-btn:hover {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+
+  }
