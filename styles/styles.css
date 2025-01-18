@@ -420,8 +420,8 @@ font-weight: 500;
 
 /* recent news styles */
 .recent-news{
-    width: 1280px;
-height: 1406px;
+    max-width: 1280px;
+
     margin: 0 auto;
 }
 /* .recent-news-box-content{
@@ -442,29 +442,25 @@ margin-top:32px;
 .recent-news-title{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
-font-size: 40px;
+font-size: 2.5rem;
 font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
+
 
 }
 
 .recent-news-description{
     color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
 margin-top: 24px;
 }
 .recent-news-box-title{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0%;
+
     margin-bottom: 12px;
     
 }
@@ -472,10 +468,8 @@ margin-top: 24px;
 .recent-news-box-description{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
     margin-top: 12px;
 }
 
@@ -486,10 +480,8 @@ background: rgb(0, 106, 80);
 padding: 13px 26px 13px 26px;
 color: rgb(255, 255, 255);
 font-family: Fira Sans;
-font-size: 18px;
+font-size: 1.12rem;
 font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
 margin-top: 55px;
 border: none;
 }
@@ -502,16 +494,15 @@ border: none;
 .recent-news-box-content span{
     color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
 margin-top: 15px;
 }
 .recent-news-img{
-    width: 408px;
-height: 306px;
-border-radius: 24px;}
+    /* max-width: 408px; */
+    /* width: 100%; */
+border-radius: 24px;
+}
 
 
 .recent-news-container-2{
