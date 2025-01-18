@@ -19,11 +19,9 @@ align-items: center;
 .nav-title{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
-font-size: 32px;
+font-size: 2rem;
 font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: left;
+
 }
 
 .nav-btn{
@@ -32,11 +30,9 @@ border: 1px solid rgb(0, 106, 80);
 border-radius: 8px;
 color: rgb(0, 106, 80);
 font-family: Fira Sans;
-font-size: 18px;
+font-size: 1.12rem;
 font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
-/* text-align: left; */
+
 padding: 15px 30px 15px 30px;
 
 }
@@ -49,8 +45,8 @@ padding: 15px 30px 15px 30px;
 /* banner styles */
 
 .banner{
-    width: 1280px;
-height: 560px;
+    max-width: 1280px;
+/* height: 560px; */
 margin: 0 auto;
 border-radius: 24px;
 
@@ -62,23 +58,23 @@ background: rgb(198, 228, 214);
     align-items: center;
 }
 
+.banner-content{
+    max-width: 622px;
+}
 .banner-title{
     color: rgba(14, 14, 14, 0.5);
 font-family: Fira Sans;
-font-size: 24px;
+font-size: 1.5rem;
 font-weight: 600;
-line-height: 29px;
-letter-spacing: 0%;
-text-align: left;
+
 }
 
 .banner-heading{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
-font-size: 56px;
+font-size: 3.5rem;
 font-weight: 700;
-line-height: 67px;
-letter-spacing: 0%;
+
 
 margin-top: 16px;
 margin-bottom: 24px;
@@ -90,10 +86,9 @@ margin-bottom: 24px;
 background: rgb(0, 106, 80);
 color: rgb(255, 255, 255);
 font-family: Fira Sans;
-font-size: 18px;
+font-size: 1.12rem;
 font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
+
 
 padding: 17px 34px 17px 34px;
 border: none;
@@ -105,7 +100,14 @@ border: none;
       }
 
 .banner-img{
+ 
     margin-top: 80px;
+ 
+    margin-bottom: 80px;
+}
+.banner-img>img{
+ 
+    width:100%;
 }
 
 /* pillar section styles */
@@ -807,3 +809,28 @@ padding-bottom: 32px;
     margin: 10px;
  } 
   
+
+ /* responsiveness and media query */
+@media screen and (max-width:576px) {
+  .banner-container{
+    flex-direction: column;
+  }
+.banner-content{
+    text-align: center;
+}
+.nav-container{
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom:10px;
+
+}
+.banner-heading{
+
+font-size: 1.5rem;
+
+}
+.banner{
+    margin:0 50px;
+}
+
+}
