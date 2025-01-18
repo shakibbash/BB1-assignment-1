@@ -25,6 +25,11 @@
       margin-bottom:10px;
       padding:0 50px;
   }
+  .banner-btn{
+    width:50%;
+    height:50px;
+    font-size: 0.6rem;
+  }
   .pillar-box-container{
    grid-template-columns: repeat(1,1fr);
    margin:10px 50px;
@@ -43,19 +48,46 @@
     margin: 50px 50px;
   }
   /* align the table in fixed way process */
-  table{
+  /* table{
     table-layout: fixed;
-  }
-  .opinion{
-    text-align: center;
-    margin: 0 50px;
-  }
-  .opinion-title{
-    text-align: center;
-  }
-  table td,td select{
-    font-size: 1rem;
-    text-align: center;
+  } */
+  table {
+    width: 100%;
+}
+
+.table-head {
+    display: none; /* Hide the table header for small screens */
+}
+
+tr {
+    display: block;
+    margin-bottom: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.t-head-col-1,
+.select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.t-head-col-1 {
+    background: rgb(245, 245, 245);
+    font-weight: 600;
+    text-align: left;
+}
+
+select {
+    margin-top: 8px;
+    width: 100%;
+    text-align: left;
+}
+  .recent-news-content{
+margin:50px 50px;
   }
   .recent-news-container-1{
     flex-direction: column;
@@ -100,6 +132,27 @@ input[type="text"]{
 .donate-description{
     margin-left:30px;
 }
+.subscribe{
+    margin:50px 50px;
+}
+.subscribe-input{
+    width:100%;
+}
+input[type="email"]::placeholder,input[type="submit"]{
+    font-size: 10px;
+}
+input[type="email"]{
+    width:60%;
+    height: 30px;
+    margin-left:0px;
+}
+input[type="submit"]{
+    width:30%;
+    height: 40px;
+position: absolute;
+right:50px;
+}
+
   }
   
   
@@ -145,6 +198,30 @@ input[type="text"]{
           .quote{
             margin: 30px 50px;
           }
+          .opinion-title{
+            text-align: center;
+          }
+          opinion {
+            padding: 24px;
+        }
+    
+        .opinion-title {
+            font-size: 2.25rem;
+        }
+    
+        .table-head {
+            font-size: 1.2rem;
+        }
+    
+        select {
+            width: 100%;
+            height: auto;
+        }
+    
+        .t-head-col-1,
+        .select {
+            font-size: 1rem;
+        }
           .recent-news-container-1{
             flex-direction: column;
      
@@ -174,6 +251,9 @@ input[type="text"]{
         .recent-news-box-content{
             text-align: center;
         }
+        .recent-news-content{
+            margin:50px 50px;
+              }
         .donate-card-container{
             flex-direction: column;
             gap:10px;
