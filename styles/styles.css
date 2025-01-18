@@ -527,8 +527,8 @@ border-radius: 24px;
 }
 /* donate section styles */
 .donate-today{
-    width: 1280px;
-height: 464px;
+   max-width: 1280px;
+
 margin: 80px auto;
 }
 
@@ -536,7 +536,7 @@ margin: 80px auto;
 .donate-title{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
-font-size: 40px;
+font-size: 2.5rem;
 font-weight: 700;
 line-height: 48px;
 letter-spacing: 0%;
@@ -545,10 +545,8 @@ text-align: center;
 .donate-description{
     color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
 text-align: center;
 margin-top:24px;
 margin-bottom:32px
@@ -568,10 +566,8 @@ border-radius: 16px;
 background: rgb(255, 255, 255);
 color: rgba(14, 14, 14, 0.8);
 font-family: Fira Sans;
-font-size: 30px;
+font-size: 1.8rem;
 font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
 }
 
 .amount{
@@ -597,10 +593,8 @@ border-radius: 16px;
 background-color: #04AA6D;
 color: rgba(14, 14, 14, 0.8);
 font-family: Fira Sans;
-font-size: 30px;
+font-size: 1.8rem;
 font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
 }
   .donate-btn-2:hover{
       background-color: white;
@@ -610,8 +604,7 @@ color:black;
 
   input[type="text"]{
     width: 1032px;
-  height: 64px;
- 
+    height: 64px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   
@@ -619,10 +612,8 @@ color:black;
    
    color: rgba(14, 14, 14, 0.3);
 font-family: Fira Sans;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
 text-align: center;
 
   }
@@ -637,13 +628,10 @@ border-radius: 8px;
 background: rgb(0, 106, 80);
 color: rgb(255, 255, 255);
 font-family: Fira Sans;
-font-size: 18px;
+font-size: 1.12rem;
 font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
-
-  }
-  .done-btn:hover {
+ }
+.done-btn:hover {
     background-color: #04AA6D;
     color: white;
     cursor: pointer;
