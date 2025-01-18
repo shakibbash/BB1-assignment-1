@@ -42,7 +42,18 @@
   .quote{
     margin: 50px 50px;
   }
-  
+  /* align the table in fixed way process */
+  table{
+    table-layout: fixed;
+  }
+  .opinion{
+    text-align: center;
+    margin: 0 5px;
+  }
+  table td,td select{
+    font-size: 1rem;
+    text-align: center;
+  }
   }
   
   

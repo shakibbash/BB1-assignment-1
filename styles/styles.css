@@ -326,34 +326,30 @@ font-weight: 400;
 
 /* opinion styles */
 .opinion{
-    width: 1220px;
-    height:409px;
-    margin: 80px  auto;
+    max-width: 1220px;
+
+    margin: 0px  auto;
     margin-bottom: 0px;
     background-color:white;
     padding: 32px;
 
 }
 .opinion-title{
-    width: 1280px;
+    max-width: 1280px;
      
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    position: absolute;
-   
-    left:118px;
-padding-top: 20px;
+
+  
 
 }
 
 table {
 
-  width: 1216px;
-height: 72px;
+  width: 100%;
+
 border-collapse: collapse;
 margin:auto;
     
@@ -361,17 +357,16 @@ margin:auto;
 }
 
 .t-head-col-1
-{width: 1017px;
-    height: 92px;
+{ width: 100%;
+  
  
     border: 1px solid black;
    padding: 5px 10px;
    color: rgb(14, 14, 14);
 font-family: Fira Sans;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 600;
-line-height: 19px;
-letter-spacing: 0%;
+
 
 }
 .select{
@@ -384,8 +379,8 @@ color: black;
 }
 .table-head{
 
-    width: 1216px;
-    height: 72px;
+    max-width: 1216px;
+
     border: 1px solid black;
 
     padding: 24px;
@@ -398,10 +393,8 @@ justify-content: space-between;
     /* text-align: left; */
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 600;
-line-height: 24px;
-letter-spacing: 0%;
 margin:auto
 
 }
@@ -421,11 +414,8 @@ select{
 border: 1px solid rgb(14, 14, 14);
 border-radius: 4px;
 font-family: Fira Sans;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 500;
-line-height: 19px;
-letter-spacing: 0%;
-
 }
 
 /* recent news styles */
