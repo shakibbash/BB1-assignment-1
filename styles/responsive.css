@@ -39,6 +39,9 @@
   .vision-box-container{
       grid-template-columns: repeat(1,1fr);
   }
+  .quote{
+    margin: 50px 50px;
+  }
   
   }
   
@@ -81,5 +84,8 @@
           }
           .vision-box-container{
               grid-template-columns: repeat(1,1fr);
+          }
+          .quote{
+            margin: 30px 50px;
           }
    }
