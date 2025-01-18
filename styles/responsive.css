@@ -1,0 +1,85 @@
+ /* responsiveness and media query */
+ @media screen and (max-width:576px) {
+    .banner-container{
+      flex-direction: column;
+    }
+  .banner-content{
+      text-align: center;
+  }
+  .nav-container{
+      flex-direction: column;
+      margin-top: 10px;
+      margin-bottom:10px;
+  
+  }
+  .banner-heading{
+  
+  font-size: 1.5rem;
+  
+  }
+  .banner{
+      margin:0 50px;
+  }
+  .banner-img{
+      margin-top:10px;
+      margin-bottom:10px;
+      padding:0 50px;
+  }
+  .pillar-box-container{
+   grid-template-columns: repeat(1,1fr);
+   margin:10px 50px;
+  }
+  .pillar-title{
+      font-size: 1.5rem;
+      text-align: center;
+  }
+  .vision{
+      margin:0 50px;
+  }
+  .vision-box-container{
+      grid-template-columns: repeat(1,1fr);
+  }
+  
+  }
+  
+  
+  
+  
+  
+   /* Medium screen */
+   @media screen and (min-width:576px) and (max-width:992px) {
+  
+      .banner-content{
+          text-align: center;
+      }
+      .banner-heading{
+  
+          font-size: 1.5rem;
+          
+          }
+  
+          .banner-container{
+              flex-direction: column;
+            }
+            .banner{
+              margin:0 50px;
+          }
+          .banner-img{
+              margin-top:0px;
+              margin-bottom: 10px;
+          }
+          .pillar-box-container{
+              grid-template-columns: repeat(2,1fr);
+              margin:10px 50px;
+             }
+          .pillar-title{
+              font-size: 1.5rem;
+              text-align: center;
+          }
+          .vision{
+              margin: 0 50px;
+          }
+          .vision-box-container{
+              grid-template-columns: repeat(1,1fr);
+          }
+   }
