@@ -834,3 +834,31 @@ font-size: 1.5rem;
 }
 
 }
+
+
+
+
+
+ /* Medium screen */
+ @media screen and (min-width:576px) and (max-width:992px) {
+
+    .banner-content{
+        text-align: center;
+    }
+    .banner-heading{
+
+        font-size: 1.5rem;
+        
+        }
+
+        .banner-container{
+            flex-direction: column;
+          }
+          .banner{
+            margin:0 50px;
+        }
+        .banner-img{
+            margin-top:0px;
+            margin-bottom: 10px;
+        }
+ }
