@@ -6,7 +6,7 @@ Bangladesh 2.0 is a platform dedicated to ideas, innovations, and visions for th
 ## Preview
 
 ### Full Desktop View
-![Desktop Screenshot](https://postimg.cc/wyRXXvyy)
+![Desktop Screenshot](https://i.postimg.cc/3RntH03B/screenshot-1737657412483.png)
 
 ### Mobile View
 ![Mobile Screenshot](INSERT_MOBILE_IMAGE_URL_HERE)
